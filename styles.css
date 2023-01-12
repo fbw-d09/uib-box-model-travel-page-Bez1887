@@ -1,0 +1,53 @@
+body {
+  padding: 30px;
+  border: 25px solid gray;
+}
+
+main {
+  padding-top: 40px;
+}
+
+nav {
+  display: block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+ul {
+  padding: 20px 20px 10px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+}
+
+.linkeseite {
+  width: 50%;
+
+  display: inline-block;
+}
+
+.linkeseite p:last-child {
+  font-weight: 600;
+  height: 40px;
+  background-color: grey;
+  text-align: end;
+  padding: 10px;
+}
+
+.rechteseite {
+  display: inline-block;
+  width: 48%;
+  height: 500px;
+  margin-bottom: -37px;
+  background-image: url(./images/beach.jpg);
+  background-size: cover;
+}
+h1 {
+  margin-left: 0;
+}
